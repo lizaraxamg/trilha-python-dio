@@ -1,7 +1,11 @@
 nome = input("Informe o seu nome: ")
 idade = input("Informe a sua idade: ")
+escolaridade = input("Informe a sua escolaridade:")
+genero = input("Informe seu genero:")
 
 print(nome, idade)
 print(nome, idade, end="...\n")
 print(nome, idade, sep="#", end="...\n")
 print(nome, idade, sep="#")
+print(nome, idade, escolaridade)
+print(nome,idade, genero)
